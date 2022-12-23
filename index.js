@@ -1,38 +1,33 @@
-// Function without any peremeter-->
-console.log("Function without any peremeter-->")
-const function1 = () => {
-  console.log("Hi,I am Manish Kumar.\n How Are You ?\n ")
-}
+console.log("String")
+//string print
+let name = "Manish";
+console.log(name);
+console.log("My name is" + name);
+console.log("my name is ", name)
 
-function1();
+// replacing a string with other
+console.log("--> Replacing a string with other string")
+   name.replace("Manish","Kumar")
+console.log("Replace String "+name);
 
-//Function with any peremeter-->
-console.log("Function with any peremeter-->")
-function add(a, b, c) {
-  return (a + b + c)
-}
-function Multi(a, b, c) {
-  return (a * b * c)
-}
-function Div(a, b) {
-  return (a / b)
-}
-function modulo(a, c) {
-  return (a % c)
-}
 
-//other type of writting the fuctions-->
-const sum = (x, y, z) => {
-  return (x + y + z)
 
-}
+//templete literals
+let friend = "Lakshay"
+let sentence = `i am ${name}`
+console.log(sentence);
+let sentence2 = `${friend} is a friend of ${name}`
+console.log(sentence2)
+//``-- Backic
+//""--Double quotes
+//'--single quotes
+let friend2 = 'Tripathi'
+let sentence3 = `${friend2} is a cute and ${friend} is a intelligent boy but ${name} have both qualities`
+console.log(sentence3)
 
-let a = 4
-let b = 5
-let c = 6
-console.log("sum is " + sum(add(a, b, c), Multi(a, b, c), Div(a, b)))
-console.log("Calling Addition Function --> ", add(a, b, c))
-console.log("Calling multiplication Function --> ", Multi(a, b, c))
-console.log("Calling Division Function --> ", Div(a, b))
-console.log("Calling Modulas Function --> ", modulo(a, c))
 
+//Escape Sequence Characters -- \n,\t,\r,\f,\b,\v,\',\&,\`,\(,\),\[,\],\{,\},\!
+//\n -- newline
+console.log("--> Newline\n Manish\n tripathi \n lakshay \n Pawan")
+//\t -- tab
+console.log("--> Tab\n Name\tRollno\tSubject\tMarks")
