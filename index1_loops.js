@@ -38,22 +38,22 @@ for (let m of "MANISHKUMAR") {
 
 //while loop-->
 console.log("\nprinting of series of natural numbers by using while loop-->\n")
-let n=prompt("enter the number: ")
-let i=0;
-while(i<n){
-  console.log(i+1+"\t")
+let n = prompt("enter the number: ")
+let i = 0;
+while (i < n) {
+  console.log(i + 1 + "\t")
   i++;
 }
 
 
 //do-while loop-->
 console.log("\nsum of r natural number by using do-while loop-->\n ")
-let r=prompt("enter the number: ")
-let j=1,sum=0;
-do{
-  sum+=j;
+let r = prompt("enter the number: ")
+let j = 1, sum = 0;
+do {
+  sum += j;
   j++;
-}while(j<r);
-console.log("sum of first "+j+" natural numbers is "+sum+"\n")
+} while (j < r);
+console.log("sum of first " + j + " natural numbers is " + sum + "\n")
 
 
