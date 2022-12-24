@@ -31,5 +31,5 @@ console.log(sentence3)
 console.log("--> Newline\n Manish\n tripathi \n lakshay \n Pawan")
 //\t -- tab
 console.log("--> Tab\n Name\tRollno\tSubject\tMarks")
-//\r -- bell
-console.log("-->bell\n Manish\r rollno\r subject")
+//\r --
+console.log("-->\n Manish\r rollno\r subject")
