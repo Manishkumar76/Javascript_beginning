@@ -1,35 +1,36 @@
-console.log("String")
-//string print
-let name = "Manish";
-console.log(name);
-console.log("My name is" + name);
-console.log("my name is ", name)
+console.log("for loops implimentation-->\n")
 
-// replacing a string with other
-console.log("--> Replacing a string with other string")
-name.replace("Manish", "Kumar")
-console.log("Replace String " + name);
+console.log("for loop-->")
+let arr =[1,2,3,4,5,7,5,7,96,4,7]
+console.log("sr no.\tElement")
+for (let i=0;i<arr.length;i++){ console.log((i+1)+"\t\t"+arr[i]+"\n")}
 
-
-
-//templete literals
-let friend = "Lakshay"
-let sentence = `i am ${name}`
-console.log(sentence);
-let sentence2 = `${friend} is a friend of ${name}`
-console.log(sentence2)
-//``-- Backic
-//""--Double quotes
-//'--single quotes
-let friend2 = 'Tripathi'
-let sentence3 = `${friend2} is a cute and ${friend} is a intelligent boy but ${name} have both qualities`
-console.log(sentence3)
+console.log("\nfor in loop--> ")
+//creating an object 
+const obj={
+  manish : 99,
+  mohan : 98,
+  rohan : 97,
+  sachin : 93
+}
+  //for in loop is useful for iterating over the object
+for(let st in obj){
+  console.log("marks of "+st+"\'s are "+obj[st]+"\n")
+}
 
 
-//Escape Sequence Characters -- \n,\t,\r,\f,\b,\v,\',\&,\`,\(,\),\[,\],\{,\},\!
-//\n -- newline
-console.log("--> Newline\n Manish\n tripathi \n lakshay \n Pawan")
-//\t -- tab
-console.log("--> Tab\n Name\tRollno\tSubject\tMarks")
-//\r --
-console.log("-->\n Manish\r rollno\r subject")
+
+//for of loop-->
+for (let b of arr){
+  console.log(b+"\t")
+}
+console.log("\n for of loop in string-->\n")
+for (let m of "MANISHKUMAR"){
+  console.log(m+"\t")
+}
+
+ 
+// console.log("implimentation of Map-function\n")
+// let a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// let value = 0,index = 0
+// console.log(a.map(value, index))
