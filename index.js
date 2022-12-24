@@ -7,8 +7,8 @@ console.log("my name is ", name)
 
 // replacing a string with other
 console.log("--> Replacing a string with other string")
-   name.replace("Manish","Kumar")
-console.log("Replace String "+name);
+name.replace("Manish", "Kumar")
+console.log("Replace String " + name);
 
 
 
@@ -31,3 +31,5 @@ console.log(sentence3)
 console.log("--> Newline\n Manish\n tripathi \n lakshay \n Pawan")
 //\t -- tab
 console.log("--> Tab\n Name\tRollno\tSubject\tMarks")
+//\r -- bell
+console.log("-->bell\n Manish\r rollno\r subject")
