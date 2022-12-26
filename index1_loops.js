@@ -31,8 +31,10 @@ for (let m of "MANISHKUMAR") {
 
 
 //for each loop-->
-
-
+arr.forEach(function(elem))
+{
+  console.log(elem + "\t")
+}
 
 
 
